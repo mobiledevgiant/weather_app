@@ -7,7 +7,8 @@ class MyList extends StatelessWidget {
   var night;
   var icon;
   var iconColor;
-  MyList({Key? key,
+  MyList({
+    Key? key,
     required this.title,
     required this.subTitle,
     required this.icon,
@@ -19,21 +20,21 @@ class MyList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding:  EdgeInsets.symmetric(horizontal:7),
+      padding:  EdgeInsets.symmetric(horizontal : 7),
       child: ListTile(
-        title:Text(title),
-        subtitle:Text(subTitle),
-        trailing:Row(
+        title: Text(title),
+        subtitle: Text(subTitle),
+        trailing: Row(
           mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment:CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Icon(icon,size:55,color:iconColor,),
-            const SizedBox(width:20,),
+            Icon(icon, size : 55, color : iconColor, ),
+            const SizedBox(width:20, ),
             Column(
               mainAxisAlignment:MainAxisAlignment.spaceEvenly,
               children: [
-                Text(day,style:const TextStyle(fontSize:16),),
-                Text(night,style:const TextStyle(color:Colors.black54),),
+                Text(day, style : const TextStyle(fontSize : 16),),
+                Text(night, style : const TextStyle(color : Colors.black54),),
               ],
             )
           ],

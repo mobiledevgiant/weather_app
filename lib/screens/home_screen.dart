@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:weather/screens/Today.dart';
-import 'package:weather/screens/Tomarrow.dart';
+import 'package:weather/screens/Tomorroww.dart';
 import 'package:weather/screens/ten_days.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -73,10 +73,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       )),
                 ]),
           ),
-          body:   const TabBarView(children: [
+          body:  const TabBarView(children: [
 
             Today(),
-            Tomarro(),
+            Tomorrow(),
             TenDays()
 
           ])),

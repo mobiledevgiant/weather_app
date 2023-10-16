@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import '../components/my_column.dart';
 import '../components/my_row.dart';
 
-class Tomarro extends StatefulWidget {
-  const Tomarro({Key? key}) : super(key: key);
+class Tomorrow extends StatefulWidget {
+  const Tomorrow({Key? key}) : super(key: key);
 
   @override
-  State<Tomarro> createState() => _TomarroState();
+  State<Tomorrow> createState() => _TomorrowState();
 }
 
-class _TomarroState extends State<Tomarro> {
+class _TomorrowState extends State<Tomorrow> {
 
   @override
   Widget build(BuildContext context) {

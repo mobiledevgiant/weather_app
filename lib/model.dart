@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 class WeatherData {
   String? location;
-  WeatherData({this.location="pakistan"});
+  WeatherData({this.location="ukrain"});
 
   late double temp;
   late String description;
